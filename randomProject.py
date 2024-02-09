@@ -33,3 +33,4 @@ label = customtkinter.CTkLabel(master=frame, text="Login")
 label.pack(pady=12, padx=10)
 
 input1 = customtkinter.CTkEntry(master=frame, placeholder_text="username") 
+input1.pack(padx=12, pady=10)
