@@ -34,3 +34,6 @@ label.pack(pady=12, padx=10)
 
 input1 = customtkinter.CTkEntry(master=frame, placeholder_text="username") 
 input1.pack(padx=12, pady=10)
+
+input2 = customtkinter.CTkEntry(master= frame, placeholder_text="Password", show="*")
+input2.pack(padx=12, pady=10)
