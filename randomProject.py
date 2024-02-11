@@ -37,3 +37,5 @@ input1.pack(padx=12, pady=10)
 
 input2 = customtkinter.CTkEntry(master= frame, placeholder_text="Password", show="*")
 input2.pack(padx=12, pady=10)
+
+button = customtkinter.CTkButton(master=frame,text="login", command=login)
