@@ -3,19 +3,6 @@ import fileinput
 import tkinter
 import customtkinter
 
-#inputCVS = input("Input CVS File: ")
-Filepath = "C:\\Users\\user\\Downloads\\"
-#filename = Filepath +inputCVS
- 
-
-## for line in fileinput.input(Filepath+filename):
-##    print(line, end='')
-#####make a gui version of this
-
-#root = tkinter.Tk()
-#label = tkinter.Label(root, )
-#label.pack()
-
 customtkinter.set_appearance_mode("dark")
 
 customtkinter.set_default_color_theme("green")
@@ -45,3 +32,4 @@ Checkbox = customtkinter.CTkCheckBox(master=frame, text="remember me")
 Checkbox.pack(padx=12, pady=10)
 
 root.mainloop()
+
