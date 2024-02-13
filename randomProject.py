@@ -43,3 +43,5 @@ button.pack(padx=12, pady=10)
 
 Checkbox = customtkinter.CTkCheckBox(master=frame, text="remember me")
 Checkbox.pack(padx=12, pady=10)
+
+root.mainloop()
