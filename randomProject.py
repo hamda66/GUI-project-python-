@@ -13,6 +13,8 @@ root.geometry("500x350")
 def login():
     if input1 == "user1":
         print("CORRECT")
+    else:
+        print("INCORRECT")       
    # print("Test")
 
 frame = customtkinter.CTkFrame(master=root)
