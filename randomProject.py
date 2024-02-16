@@ -11,11 +11,11 @@ root = customtkinter.CTk()
 root.geometry("500x350")
 
 def login():
-    if input1 == "user1":
+   # if input1 == "user1":
         print("CORRECT")
-    else:
-        print("INCORRECT")       
-   # print("Test")
+    #else:
+     #   print("INCORRECT")       
+  
 
 frame = customtkinter.CTkFrame(master=root)
 frame.pack(pady=20, padx=60, fill="both", expand=True)
