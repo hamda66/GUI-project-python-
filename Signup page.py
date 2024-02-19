@@ -12,6 +12,11 @@ root= customtkinter.CTk()
 
 root.geometry("700x700")
 
+frame = customtkinter.CTkFrame(master=root)
+frame.pack(padx=20, pady=70, fill="both", expand="true")
+
+#name = customtkinter.CTkLabel()
+
 
 
 root.mainloop()
