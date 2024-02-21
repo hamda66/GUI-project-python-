@@ -10,13 +10,15 @@ customtkinter.set_default_color_theme("blue")
 
 root= customtkinter.CTk()
 
-root.geometry("700x700")
+root.geometry("500x350")
 
 frame = customtkinter.CTkFrame(master=root)
 frame.pack(padx=20, pady=70, fill="both", expand=True)
 
-firstname = customtkinter.CTkEntry(master=frame, placeholder_text="First Name")
-firstname.pack(padx=12 , pady=10)
+firstname = customtkinter.CTkLabel(master=frame, text="First name")
+firstname.pack()
+firstnameEnter = customtkinter.CTkEntry(master=frame, placeholder_text="Enter First Name")
+firstnameEnter.pack(padx=12 , pady=10)
 
 #name = customtkinter.CTkLabel()
 
