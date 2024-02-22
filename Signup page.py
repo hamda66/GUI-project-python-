@@ -20,6 +20,9 @@ firstname.pack()
 firstnameEnter = customtkinter.CTkEntry(master=frame, placeholder_text="Enter First Name")
 firstnameEnter.pack(padx=12 , pady=10)
 
+Lastname = customtkinter.CTkLabel(master=frame, text="Last Name")
+Lastname.pack()
+
 #name = customtkinter.CTkLabel()
 
 
