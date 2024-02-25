@@ -29,6 +29,9 @@ lastnameEnter = customtkinter.CTkEntry(master=frame, placeholder_text="Enter Las
 lastnameEnter.pack()
 
 Email=customtkinter.CTkLabel(master=frame, text="Email")
+Email.pack()
+EmailEnter = customtkinter.CTkEntry(master=frame, placeholder_text="Enter Email")
+EmailEnter.pack()
 
 #name = customtkinter.CTkLabel()
 
