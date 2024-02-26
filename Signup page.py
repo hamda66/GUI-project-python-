@@ -13,7 +13,7 @@ root= customtkinter.CTk()
 root.geometry("500x350")
 
 frame = customtkinter.CTkFrame(master=root)
-frame.pack(padx=20, pady=70, fill="both", expand=True)
+frame.pack(padx=50, pady=30, fill="both", expand=True)
 
 Signuppagelb = customtkinter.CTkLabel(master=frame, text="Sign up", text_color="red", font=("Arial", 40) ) 
 Signuppagelb.pack()
@@ -32,6 +32,10 @@ Email=customtkinter.CTkLabel(master=frame, text="Email")
 Email.pack()
 EmailEnter = customtkinter.CTkEntry(master=frame, placeholder_text="Enter Email")
 EmailEnter.pack()
+
+Password = customtkinter.CTkLabel(master=frame, text="Password")
+Password.pack()
+
 
 #name = customtkinter.CTkLabel()
 
