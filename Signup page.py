@@ -37,8 +37,6 @@ Password = customtkinter.CTkLabel(master=frame, text="Password")
 Password.pack()
 
 
-#name = customtkinter.CTkLabel()
-
 
 
 root.mainloop()
