@@ -36,7 +36,7 @@ EmailEnter.pack()
 Password = customtkinter.CTkLabel(master=frame, text="Password")
 Password.pack()
 
-
+Signupbtn = customtkinter.CTkButton(master=frame, text="Sign up", command="cred")
 
 
 root.mainloop()
