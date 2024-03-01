@@ -35,10 +35,14 @@ EmailEnter.pack()
 
 Password = customtkinter.CTkLabel(master=frame, text="Password")
 Password.pack()
+    
+    
 
 def cred():
     print ("Login saved!")
-
+    open with("usercred.txt","a") as targetfile:
+        print
+        
 Signupbtn = customtkinter.CTkButton(master=frame, text="Sign up", command="cred")
 
 
