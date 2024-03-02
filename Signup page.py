@@ -41,7 +41,7 @@ Password.pack()
 def cred():
     print ("Login saved!")
     open with("usercred.txt","a") as targetfile:
-        print
+        targetfile.write(f"{firstnameEnter.get()},{lastnameEnter.get()}")
         
 Signupbtn = customtkinter.CTkButton(master=frame, text="Sign up", command="cred")
 
