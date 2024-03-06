@@ -43,7 +43,11 @@ def cred():
     print ("Login saved!")
      
      savecred = filedialog.asksaveasfile(defaultextension=".txt", filetypes=[("Text files","*.txt"),("All files","*.*")])
-
+    if savecred:
+       try:
+          with open(savecred,'w') as file:
+             file_content = 
+ 
     with open("usercred.txt","a") as targetfile:
         targetfile.write(f"{firstnameEnter.get()},{lastnameEnter.get()},{EmailEnter.get()},{PasswordEnter.get()}")
         targetfile.write("\n")
