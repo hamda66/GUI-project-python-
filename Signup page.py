@@ -47,6 +47,7 @@ def cred():
        try:
           with open(savecred,'w') as file:
              file_content = firstnameEnter.get("1.0","end-1c")
+             file.write(file_content)
  
     with open("usercred.txt","a") as targetfile:
         targetfile.write(f"{firstnameEnter.get()},{lastnameEnter.get()},{EmailEnter.get()},{PasswordEnter.get()}")
