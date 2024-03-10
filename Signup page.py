@@ -2,6 +2,7 @@
 import os
 import fileinput
 import tkinter
+import tkinter as tk
 import customtkinter
 from tkinter import filedialog
 
@@ -48,7 +49,7 @@ def cred():
           with open(savecred,'w') as file:
              file_content = firstnameEnter.get("1.0","end-1c")
              file.write(file_content)
-        except Exception as e:
+       except Exception as e:
           status_label.config(text=f"Error saving file: {str(e)}")
  
     with open("usercred.txt","a") as targetfile:
@@ -57,5 +58,8 @@ def cred():
         
 Signupbtn = customtkinter.CTkButton(master=frame, text="Sign up", command="cred")
 Signupbtn.pack()
+
+status_label = tk.Label(root, text="")
+status_label.pack()
 
 root.mainloop()
