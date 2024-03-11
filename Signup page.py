@@ -14,6 +14,8 @@ root= customtkinter.CTk()
 
 root.geometry("700x450")
 
+
+
 frame = customtkinter.CTkFrame(master=root)
 frame.pack(padx=50, pady=30, fill="both", expand=True)
 
@@ -56,7 +58,7 @@ def cred():
         targetfile.write(f"{firstnameEnter.get()},{lastnameEnter.get()},{EmailEnter.get()},{PasswordEnter.get()}")
         targetfile.write("\n")
         
-Signupbtn = customtkinter.CTkButton(master=frame, text="Sign up", command="cred")
+Signupbtn = customtkinter.CTkButton(master=frame, text="Sign up", command=lambda:[cred()])
 Signupbtn.pack()
 
 status_label = tk.Label(root, text="")
