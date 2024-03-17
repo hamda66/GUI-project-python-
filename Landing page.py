@@ -18,4 +18,6 @@ frame.pack(pady=20, padx=60, fill="both", expand=True)
 loginbtn = customtkinter.CTkButton(master=root, text="LOGIN HERE", command=gologin)
 loginbtn.pack(padx=12, pady=10)
 
+signup = customtkinter.CTkButton(master=root, text="SIGN UP HERE", command=signuppage)
+signup.pack(padx=12,pady=10)
 
