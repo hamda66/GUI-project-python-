@@ -22,6 +22,7 @@ def gologin():
    call(["python", "randomProject.py"])
 
 def signuppage():
+   call(["python","Signup page.py"])
 
 loginbtn = customtkinter.CTkButton(master=frame, text="LOGIN HERE", command=gologin)
 loginbtn.pack(padx=12, pady=10)
