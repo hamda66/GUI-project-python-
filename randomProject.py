@@ -20,6 +20,10 @@ def login():
 frame = customtkinter.CTkFrame(master=root)
 frame.pack(pady=20, padx=60, fill="both", expand=True)
 
+backbtn = customtkinter.CTkButton(master=frame, text="Back", height=10,width=10, command=back)
+backbtn.pack(padx=20,pady=15)
+
+
 label = customtkinter.CTkLabel(master=frame, text="Login")
 
 label.pack(pady=12, padx=10)
