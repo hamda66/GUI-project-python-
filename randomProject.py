@@ -1,6 +1,7 @@
 import os
 import fileinput
 import tkinter
+from subprocess import call
 import customtkinter
 
 customtkinter.set_appearance_mode("dark")
@@ -15,6 +16,10 @@ def login():
         print("CORRECT")
     #else:
      #   print("INCORRECT")       
+        
+
+def back():
+        call(["python", "Landing page.py"])
   
 
 frame = customtkinter.CTkFrame(master=root)
