@@ -5,6 +5,7 @@ import tkinter
 import tkinter as tk
 import customtkinter
 from tkinter import filedialog
+from subprocess import call
 
 customtkinter.set_appearance_mode("dark")
 
@@ -20,7 +21,7 @@ frame = customtkinter.CTkFrame(master=root)
 frame.pack(padx=50, pady=30, fill="both", expand=True)
 
 def back():
-  print("nothing")
+  call(["python","Landing page.py"])
 
 Backbtn= customtkinter.CTkButton(master=frame, text="Back",command=back, height=10, width=10)
 Backbtn.pack(padx=20,pady=15)
