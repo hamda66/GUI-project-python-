@@ -56,7 +56,7 @@ def cred():
     if savecred:
        try:
           with open(savecred,'w') as file:
-             file_content = firstnameEnter.get("1.0","end-1c")
+             file_content = firstnameEnter.get("1.0","end-1c"), lastnameEnter.get("1.0","end-1c"),EmailEnter.get("1.0","end-1c"),PasswordEnter.get("1.0","end-1c")
              file.write(file_content)
        except Exception as e:
           status_label.config(text=f"Error saving file: {str(e)}")
